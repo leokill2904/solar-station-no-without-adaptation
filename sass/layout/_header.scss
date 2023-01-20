@@ -1,0 +1,13 @@
+.header {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}

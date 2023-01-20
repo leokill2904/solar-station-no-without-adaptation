@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сонячна електростанція</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo header__logo" href="./index.html">
+          <svg class="logo__icon" width="180" height="50">
+            <use href="./img/sprite.svg#logo"></use>
+          </svg>
+        </a>
+      </div>
+    </header>
+    <main>
+      <!-- HERO_SECTION -->
+      <section class="hero">
+        <div class="container hero__container">
+          <p class="hero__description">Зелений тариф для дому та бізнесу</p>
+          <h1 class="hero__main-title">Сонячна електростанція</h1>
+          <h2 class="hero__title">з доходом від 1000$ на місяць</h2>
+          <button type="button" class="button hero__button" href="./index.html">
+            Записатись на консультацію
+          </button>
+          <ul class="socials hero__socials">
+            <li class="socials__item">
+              <a class="socials__link" aria-label="instagram" href="">
+                <svg class="socials__icon" width="30" height="30">
+                  <use href="./img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" aria-label="telegram" href="">
+                <svg class="socials__icon" width="30" height="30">
+                  <use href="./img/sprite.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" aria-label="whatsapp" href="">
+                <svg class="socials__icon" width="30" height="30">
+                  <use href="./img/sprite.svg#whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" aria-label="facebook" href="">
+                <svg class="socials__icon" width="30" height="30">
+                  <use href="./img/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- SERVICES -->
+      <section class="services">
+        <div class="container">
+          <h2 class="services__title">Послуги</h2>
+          <div class="services__container">
+            <div class="services__list-container">
+              <ul class="services__list">
+                <li class="services__item">
+                  <h3 class="services__heading">
+                    Повний комплект сонячної електростанції
+                  </h3>
+                  <p class="services__description">
+                    74 моделі сонячних панелей, 31 модель інверторів, дроти з
+                    підвищеною стійкістю до атмосферних умов, якісні з'єднувачі,
+                    контролери зарядів та надійні гелеві акумулятори зі
+                    збільшеним терміном служби.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <h3 class="services__heading">
+                    Підбір обладнання з максимальною продуктивністю
+                  </h3>
+                  <p class="services__description">
+                    Підбираємо сонячні панелі з урахуванням розташування Вашого
+                    будинку, кількістю прямого та розсіяного випромінювання, для
+                    того, щоб Ваша електростанція – виробляла максимальну
+                    кількість електроенергії та окупилася якнайшвидше.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <h3 class="services__heading">
+                    Монтаж обладнання відповідно до ДСТУ
+                  </h3>
+                  <p class="services__description">
+                    Монтаж проводиться у точній відповідності до ДСТУ, з
+                    урахуванням закону про «Зелений тариф» та вимог Обленерго.
+                    При цьому ми враховуємо, щоб сонячна станція мала
+                    максимально можливу продуктивність.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <h3 class="services__heading">
+                    Допомога у підключенні до «Зеленого тарифу»
+                  </h3>
+                  <p class="services__description">
+                    Всю бюрократичну процедуру підключення Вашої електростанції
+                    до «Зеленого тарифу», ми беремо на себе, в тому числі зі
+                    збільшення договірної потужності вашого будинку. При
+                    замовленні сонячної електростанції ця послуга є абсолютно
+                    безкоштовною.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="services__slide">
+              <img src="./img/services_slide.jpg" alt="solary_station" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- WORKING_CONDITIONS -->
+      <section class="working">
+        <div class="container">
+          <h2 class="working__title">Зелений тариф</h2>
+          <div class="working__item">
+            <button
+              class="working__button"
+              id="working__button-1"
+              aria-expanded="false"
+            >
+              <span class="working__heading">Гарантія викупу</span
+              ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="working__content">
+              <p class="working__description">
+                Гарантований викуп електроенергії державою - прописано у НКРЄ
+                №447
+              </p>
+            </div>
+          </div>
+          <div class="working__item">
+            <button
+              class="working__button"
+              id="working__button-2"
+              aria-expanded="false"
+            >
+              <span class="working__heading">Довгостроково</span
+              ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="working__content">
+              <p class="working__description">
+                Цей проект, що підтримується міжнародними інвестиційними
+                організаціями
+              </p>
+            </div>
+          </div>
+          <div class="working__item">
+            <button
+              class="working__button"
+              id="working__button-3"
+              aria-expanded="false"
+            >
+              <span class="working__heading">Вид вкладення</span
+              ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="working__content">
+              <p class="working__description">
+                Альтернатива банківським депозитам, окупність – від 16% до 18%
+                річних
+              </p>
+            </div>
+          </div>
+          <div class="working__item">
+            <button
+              class="working__button"
+              id="working__button-4"
+              aria-expanded="false"
+            >
+              <span class="working__heading">Висока ставка</span
+              ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="working__content">
+              <p class="working__description">
+                Найвища тарифна ставка в Європі - 0,16 євро
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--ENCOURAGEMENT-->
+      <section class="encouragement">
+        <div class="container">
+          <h2 class="encouragement__title">
+            «Сонячна електростанція <br />
+            — ідеальне вкладення коштів <br />
+            у свою енергонезалежність <br />
+            та пасивний дохід»
+          </h2>
+        </div>
+      </section>
+      <!--OUR_CUSTOMERS-->
+      <section class="customers">
+        <div class="container">
+          <h2 class="customers__title">Наші клієнти</h2>
+          <div class="customers__wrapper">
+            <div class="card-block client-1">
+              <span class="card-tittle">CEC</span>
+              <div class="card">
+                <div class="card-info">
+                  <ul>
+                    <li>Потужність - 3 кВт</li>
+                    <li>Гелеві акумулятори</li>
+                    <li>Потужність панелей - 400 Вт</li>
+                    <li>Доставка безкоштовна</li>
+                  </ul>
+                  <button class="show-button">Дізнатись</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-block client-2">
+              <span class="card-tittle">CEC</span>
+              <div class="card">
+                <div class="card-info">
+                  <ul>
+                    <li>Потужність - 3 кВт</li>
+                    <li>Гелеві акумулятори</li>
+                    <li>Потужність панелей - 400 Вт</li>
+                    <li>Доставка безкоштовна</li>
+                  </ul>
+                  <button class="show-button">Дізнатись</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-block client-3">
+              <span class="card-tittle">CEC</span>
+              <div class="card">
+                <div class="card-info">
+                  <ul>
+                    <li>Потужність - 3 кВт</li>
+                    <li>Гелеві акумулятори</li>
+                    <li>Потужність панелей - 400 Вт</li>
+                    <li>Доставка безкоштовна</li>
+                  </ul>
+                  <button class="show-button">Дізнатись</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-block client-4">
+              <span class="card-tittle">CEC</span>
+              <div class="card">
+                <div class="card-info">
+                  <ul>
+                    <li>Потужність - 3 кВт</li>
+                    <li>Гелеві акумулятори</li>
+                    <li>Потужність панелей - 400 Вт</li>
+                    <li>Доставка безкоштовна</li>
+                  </ul>
+                  <button class="show-button">Дізнатись</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-block client-5">
+              <span class="card-tittle">CEC</span>
+              <div class="card">
+                <div class="card-info">
+                  <ul>
+                    <li>Потужність - 3 кВт</li>
+                    <li>Гелеві акумулятори</li>
+                    <li>Потужність панелей - 400 Вт</li>
+                    <li>Доставка безкоштовна</li>
+                  </ul>
+                  <button class="show-button">Дізнатись</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-block client-6">
+              <span class="card-tittle">CEC</span>
+              <div class="card">
+                <div class="card-info">
+                  <ul>
+                    <li>Потужність - 3 кВт</li>
+                    <li>Гелеві акумулятори</li>
+                    <li>Потужність панелей - 400 Вт</li>
+                    <li>Доставка безкоштовна</li>
+                  </ul>
+                  <button class="show-button">Дізнатись</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--STEPS_TO_YOUR_OWN-->
+      <section class="steps">
+        <div class="container">
+          <h2 class="steps__title">5 кроків до власної електростанції</h2>
+          <div class="steps__container">
+            <div class="steps__list-container">
+              <ul class="steps__list">
+                <li class="steps__item">
+                  01
+                  <h3 class="steps__heading">Заявка чи дзвінок</h3>
+                  <p class="steps__description">
+                    Залишаєте заявку на нашому сайті або зв'язуєтеся з нами по
+                    телефону або у месенджерах.
+                  </p>
+                </li>
+                <li class="steps__item">
+                  02
+                  <h3 class="steps__heading">
+                    Консультація та замір на об'єкті
+                  </h3>
+                  <p class="steps__description">
+                    Ми прораховуємо більше 10-15 варіантів сонячної станції на
+                    Вашій ділянці, щоб запропонувати Вам один найбільш вигідний.
+                  </p>
+                </li>
+                <li class="steps__item">
+                  03
+                  <h3 class="steps__heading">Укладення договору</h3>
+                  <p class="steps__description">
+                    Укладається договір, завдяки якому ви будете застраховані
+                    від неякісного обладнання та зриву термінів.
+                  </p>
+                </li>
+                <li class="steps__item">
+                  04
+                  <h3 class="steps__heading">Монтаж СЕС</h3>
+                  <p class="steps__description">
+                    Наші фахівці проводять монтаж сонячних батарей, проводок та
+                    інверторів, при необхідності виготовляють опори.
+                  </p>
+                </li>
+                <li class="steps__item">
+                  05
+                  <h3 class="steps__heading">Отримання доходу від держави</h3>
+                  <p class="steps__description">
+                    Після підключення до «Зеленого тарифу» ви отримуєте дохід за
+                    кожен кіловат, вироблений на Вашій сонячній електростанції
+                    за зафіксованим тарифом на момент підключення.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="steps__slide">
+              <img
+                src="./img/steps.jpg"
+                alt="green-tarif house width: 600px height: 650px "
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__request">
+            <form class="footer__form">
+              <h2 class="footer__title">Залишити заявку</h2>
+              <label class="lable">
+                <input type="text" name="username" autofocus placeholder="Ім'я"/>
+              </label>
+              <label class="lable">
+                <input type="tel" name="phone_number" placeholder="Телефон"/>
+              </label>
+              <button type="button" class="button footer__button" href="./index.html">Залишити заявку
+              </button>
+            </form>
+
+            <address>
+              <h2 class="footer-contacts__title">Наші контакти</h2>
+              <ul class="footer-contacts__list">
+                <li class="footer-contacts__item">
+                  <a
+                    class="footer-contacts__link footer-contacts__link--other-color"
+                    href="https://goo.gl/maps/w1gsQ9XyQ7c2buKB7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >м. Вінниця, вул. О. Антонова, 15</a
+                  >
+                </li>
+                <li class="footer-contacts__item">
+                  <a class="footer-contacts__link" href="mailto:info@ses.com.ua"
+                    >info@ses.com.ua</a
+                  >
+                </li>
+                <li class="footer-contacts__item">
+                  <a class="footer-contacts__link" href="tel:+380961616166"
+                    >+38 096 16 16 166</a
+                  >
+                </li>
+                <li class="footer-contacts__item">Щодня 08:00 - 20:00</li>
+                <li class="footer-contacts__item">Обідня перерва з 13:00 - 14:00</li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer__bottom-menu">
+            <a href="./index.html" class="footer__policy">Політика конфіденційності</a>
+            <div class="logo">
+              <a class="logo__link" href="/index.html">
+                <svg class="logo__icon" widtg="180" height="30">
+                  <use href="./img/sprite.svg#logo"></use>
+                </svg>
+              </a>
+            </div>
+            <ul class="socials footer__socials">
+              <li class="socials__item">
+                <a class="socials__link" aria-label="instagram" href="">
+                  <svg class="socials__icon" width="30" height="30">
+                    <use href="./img/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" aria-label="telegram" href="">
+                  <svg class="socials__icon" width="30" height="30">
+                    <use href="./img/sprite.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" aria-label="whatsapp" href="">
+                  <svg class="socials__icon" width="30" height="30">
+                    <use href="./img/sprite.svg#whatsapp"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" aria-label="facebook" href="">
+                  <svg class="socials__icon" width="30" height="30">
+                    <use href="./img/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/working.js"></script>
+    <script src="./js/customers.js"></script>
+  </body>
+</html>

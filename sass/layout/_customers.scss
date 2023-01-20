@@ -1,0 +1,158 @@
+.customers__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.customers__wrapper {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.card-block {
+  background-color: var(--secondary-background-color);
+  background-size: 100%;
+  padding: 30px 15px;
+  border-radius: 35px;
+  margin-right: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 1000ms ease;
+}
+.client-1 {
+  background-image: url(../../img/client1.jpg);
+  background-size: cover;
+}
+.client-2 {
+  background-image: url(../../img/client2.jpg);
+  background-size: cover;
+}
+.client-3 {
+  background-image: url(../../img/client3.jpg);
+  background-size: cover;
+}
+.client-4 {
+  background-image: url(../../img/client4.jpg);
+  background-size: cover;
+}
+.client-5 {
+  background-image: url(../../img/client5.jpg);
+  background-size: cover;
+}
+.client-6 {
+  background-image: url(../../img/client6.jpg);
+  background-size: cover;
+}
+
+.show-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+  height: 20;
+  padding: 3px 3px;
+  background-color: var(--button-color);
+  color: var(--accent-color);
+  border-radius: 35px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.card-tittle {
+  color: var(--accent-color);
+  font-size: 42pt;
+  display: flex;
+  background-color: white;
+  position: fixed;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 150px;
+  height: 100px;
+  transition: all 1500ms ease;
+  color: var(--accent-color);
+}
+
+.card-block > span {
+  transition: all 400ms ease;
+  font-size: 14pt;
+  position: sticky;
+}
+
+.show-button:hover {
+  scale: 1.1;
+}
+
+.card:hover {
+  content: "thx :)";
+  transition: all 1000ms ease;
+  background-color: white;
+  padding: 2px 2px;
+  height: 150px;
+  width: 200px;
+}
+
+.card-info {
+  opacity: 0;
+}
+
+.card-info span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover .card-info {
+  transition: all 1800ms ease;
+  opacity: 1;
+}
+
+.card-block:hover {
+  transition: all 1000ms ease;
+}
+
+@media (max-width: 768px) {
+  .customers__wrapper {
+    display: grid;
+  }
+
+  .card-block {
+    margin-bottom: 10px;
+  }
+
+  .card {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    transition: all 1500ms ease;
+    border-radius: 35px;
+  }
+
+  .card:hover {
+    padding: 5px 5px;
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (min-width: 960px) {
+  .customers {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+  }
+}

@@ -1,0 +1,48 @@
+:root {
+  --primary-font-family: Noto Sans, sans-serif;
+
+  --primary-text-color: #212121;
+  --secondary-text-color: #868585;
+  --tertiary-text-color: #ffffff;
+  --accent-color: #a9a32a;
+
+  --primary-background-color: #ffffff;
+
+  --icon-fill: #afb1b8;
+}
+body {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
+.container {
+}
+.hero {
+  width: 1921px;
+  height: 900px;
+  background-image: url(../img/header.jpg);
+  text-align: center;
+}
+.hero__description {
+  margin-top: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--tertiary-text-color);
+}
+.hero__main-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  color: var(--tertiary-text-color);
+}
+.hero__title {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+  color: var(--tertiary-text-color);
+}
